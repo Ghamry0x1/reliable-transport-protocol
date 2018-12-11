@@ -1,4 +1,4 @@
-# Implementing a Reliable Transport Protocol (from J.F. Kurose)
+# Reliable Transport Protocol (from J.F. Kurose)
 
 ## Guidelines
 
