@@ -1,8 +1,31 @@
 # Reliable Transport Protocol (from J.F. Kurose)
 
-## Guidelines
+## Introduction
 
 Project is divided into 2 parts, _Alternating-Bit-Protocol_ version and the second part for the _Go-Back-N_ version.
+
+## Getting Started
+### Alternating-Bit-Protocol
+- Compile the file
+  >$ gcc abp.c <br>
+- Run usage: 
+  >./a.exe num_sim prob_loss prob_corrupt time debug_level <br>
+
+example:
+>$ ./a.exe 10 0 0 5 0 <br>
+![abp-example](https://user-images.githubusercontent.com/25902120/50613117-2dc9a480-0ee5-11e9-8cb4-cfb3444bff75.PNG)
+
+### Go-Back-N
+- Compile the file
+  >$ gcc gbn.c <br>
+- Run usage: 
+  >./a.exe num_sim prob_loss prob_corrupt time debug_level <br>
+
+example:
+>$ ./a.exe 50 0.3 0 10 0 <br>
+![gbn-example](https://user-images.githubusercontent.com/25902120/50613963-04f6de80-0ee8-11e9-827f-ed17be615351.PNG)
+![gbn-example-continued](https://user-images.githubusercontent.com/25902120/50613966-04f6de80-0ee8-11e9-97ea-abf070fe10e7.PNG)
+
 
 ## Test cases
 
